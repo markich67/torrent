@@ -1,0 +1,191 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    height:150px;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 1750px;
+}
+
+.title{
+    font-size: 60px;  
+    margin-left:5%;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.home-button{
+    margin-left:90%;
+    padding:10px 20px;
+    font-size:24px;
+    border-radius:10px;
+    
+}
+
+
+.gta5-container {
+    margin-top:5%;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.gtaText{
+    color: black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #BDBDBD ;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px 200px 0px 200px;
+    justify-content: flex-start;
+    height:1500px;
+}
+
+.euro-truck-container {
+    margin-top: 5%;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.gta5-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top:5%;
+}
+
+.euro-truck-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top:5%;
+}
+
+.sims4-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top:5%;
+}
+
+.rdr2-container {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.metro-container {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.mafia-container {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px 200px 0px 100px;
+}
+
+
+.pc_info {
+    flex: 0 0 auto;
+}
+
+.description {
+    width: 100%;    
+}
+
+p{
+    font-size:30px;
+}
+
+.screenshots {
+    display: grid;
+    gap:5px;
+    padding: 50px 27% 0px 27%;
+    
+
+}
+
+.screenshots img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;    
+}
+
+.screenshots table {
+    width: 1100px;
+    height:900px;
+}
+
+
+.download {
+    margin-left: 100px;
+}
+
+.download-button {
+    padding: 15px 30px;
+    font-size: 40px;
+    background-color: #3fad3f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.download-button:hover {
+    background-color: #BDBDBD;
+}
+
+
+.sims4-container {
+    margin-top: 5%;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
